@@ -1282,31 +1282,31 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-repeat: no-repeat;
 }
 
-.no-webp .ptools__top-figma{
+.ptools__top-figma{
   background-image: url("../img/popular__top-figma.png"); }
 
-.no-webp .ptools__top-adobe{
+.ptools__top-adobe{
   background-image: url("../img/popular__top-adobe.png"); }
 
-.no-webp .ptools__top-invision{
+.ptools__top-invision{
   background-image: url("../img/popular__top-invision.png"); }
 
-.no-webp .ptools__top-github{
+.ptools__top-github{
   background-image: url("../img/popular__top-github.png"); }
 
-.no-webp .ptools__top-vscode{
+.ptools__top-vscode{
   background-image: url("../img/popular__top-vscode.png"); }
 
-.no-webp .ptools__top-sketch{
+.ptools__top-sketch{
   background-image: url("../img/popular__top-sketch.png"); }
 
-.no-webp .ptools__top-pycharm{
+.ptools__top-pycharm{
   background-image: url("../img/popular__top-pycharm.png"); }
 
-.no-webp .ptools__top-maze{
+.ptools__top-maze{
   background-image: url("../img/popular__top-maze.png"); }
 
-.no-webp .ptools__top-webflow{
+.ptools__top-webflow{
   background-image: url("../img/popular__top-webflow.png"); }
 
 .ptools__bottom {
@@ -2381,34 +2381,34 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-repeat: no-repeat;
 }
 
-.no-webp .ntools__left-framer{
+.ntools__left-framer{
   background-image: url("../img/new__left-framer.png"); }
 
-.no-webp .ntools__left-whimsical{
+.ntools__left-whimsical{
   background-image: url("../img/new__left-whimsical.png"); }
 
-.no-webp .ntools__left-mindmaster{
+.ntools__left-mindmaster{
   background-image: url("../img/new__left-mindmaster.png"); }
 
-.no-webp .ntools__left-zapier{
+.ntools__left-zapier{
   background-image: url("../img/new__left-zapier.png"); }
 
-.no-webp .ntools__left-atom{
+.ntools__left-atom{
   background-image: url("../img/new__left-atom.png"); }
 
-.no-webp .ntools__left-marvel{
+.ntools__left-marvel{
   background-image: url("../img/new__left-marvel.png"); }
 
-.no-webp .ntools__left-protoPie{
+.ntools__left-protoPie{
   background-image: url("../img/new__left-protoPie.png"); }
 
-.no-webp .ntools__left-mockflow{
+.ntools__left-mockflow{
   background-image: url("../img/new__left-mockflow.png"); }
 
-.no-webp .ntools__left-justinmind{
+.ntools__left-justinmind{
   background-image: url("../img/new__left-justinmind.png"); }
 
-.no-webp .ntools__left-interplay{
+.ntools__left-interplay{
   background-image: url("../img/new__left-interplay.png"); }
 
 .ntools__right {
@@ -3357,7 +3357,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   height: 92px;
 }
 
-.no-webp .hero4{
+.hero4{
   background-image: url("../img/hero4__bg.png"); }
 
 .hero4 {
@@ -3509,7 +3509,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   color: var(--color-fiord);
 }
 
-.no-webp .about__wrapper-photo{
+.about__wrapper-photo{
   background-image: url("../img/about__back.png"); }
 
 .about__wrapper-photo {
@@ -3630,13 +3630,13 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-repeat: no-repeat;
 }
 
-.no-webp .people__photo1{
+.people__photo1{
   background-image: url("../img/people__photo1.png"); }
 
-.no-webp .people__photo2{
+.people__photo2{
   background-image: url("../img/people__photo2.png"); }
 
-.no-webp .people__photo3{
+.people__photo3{
   background-image: url("../img/people__photo3.png"); }
 
 .people__wrapper-text {
@@ -4508,7 +4508,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-color: var(--color-ebony);
 }
 
-.no-webp .hero__right-wrapper{
+.hero__right-wrapper{
   background-image: url("../img/hero__right1.png"), url("../img/hero__right2.png"), url("../img/hero__right3.png"), url("../img/hero__right4.png"), url("../img/hero__right5.png"), url("../img/hero__right6.png"); }
 
 .hero__right-wrapper {
@@ -4523,14 +4523,14 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
 }
 
 @-webkit-keyframes change-back1145 {
-  .no-webp 0%{
+  0%{
     background-image: url("../img/hero__right1.png"); }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
 
-  .no-webp 16%{
+  16%{
     background-image: url("../img/hero__right2.png"); }
 
   16% {
@@ -4538,7 +4538,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(60deg);
   }
 
-  .no-webp 32%{
+  32%{
     background-image: url("../img/hero__right3.png"); }
 
   32% {
@@ -4546,7 +4546,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(120deg);
   }
 
-  .no-webp 49%{
+  49%{
     background-image: url("../img/hero__right4.png"); }
 
   49% {
@@ -4554,7 +4554,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(180deg);
   }
 
-  .no-webp 66%{
+  66%{
     background-image: url("../img/hero__right5.png"); }
 
   66% {
@@ -4562,7 +4562,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(240deg);
   }
 
-  .no-webp 84%{
+  84%{
     background-image: url("../img/hero__right6.png"); }
 
   84% {
@@ -4570,7 +4570,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(300deg);
   }
 
-  .no-webp 100%{
+  100%{
     background-image: url("../img/hero__right1.png"); }
 
   100% {
@@ -4580,14 +4580,14 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
 }
 
 @keyframes change-back1145 {
-  .no-webp 0%{
+  0%{
     background-image: url("../img/hero__right1.png"); }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
 
-  .no-webp 16%{
+  16%{
     background-image: url("../img/hero__right2.png"); }
 
   16% {
@@ -4595,7 +4595,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(60deg);
   }
 
-  .no-webp 32%{
+  32%{
     background-image: url("../img/hero__right3.png"); }
 
   32% {
@@ -4603,7 +4603,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(120deg);
   }
 
-  .no-webp 49%{
+  49%{
     background-image: url("../img/hero__right4.png"); }
 
   49% {
@@ -4611,7 +4611,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(180deg);
   }
 
-  .no-webp 66%{
+  66%{
     background-image: url("../img/hero__right5.png"); }
 
   66% {
@@ -4619,7 +4619,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(240deg);
   }
 
-  .no-webp 84%{
+  84%{
     background-image: url("../img/hero__right6.png"); }
 
   84% {
@@ -4627,7 +4627,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             transform: rotate(300deg);
   }
 
-  .no-webp 100%{
+  100%{
     background-image: url("../img/hero__right1.png"); }
 
   100% {
@@ -4790,13 +4790,13 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-repeat: no-repeat;
 }
 
-.no-webp .popular__top-figma{
+.popular__top-figma{
   background-image: url("../img/popular__top-figma.png"); }
 
-.no-webp .popular__top-adobe{
+.popular__top-adobe{
   background-image: url("../img/popular__top-adobe.png"); }
 
-.no-webp .popular__top-invision{
+.popular__top-invision{
   background-image: url("../img/popular__top-invision.png"); }
 
 .popular__bottom {
@@ -4974,16 +4974,16 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-repeat: no-repeat;
 }
 
-.no-webp .new__left-framer{
+.new__left-framer{
   background-image: url("../img/new__left-framer.png"); }
 
-.no-webp .new__left-whimsical{
+.new__left-whimsical{
   background-image: url("../img/new__left-whimsical.png"); }
 
-.no-webp .new__left-mindmaster{
+.new__left-mindmaster{
   background-image: url("../img/new__left-mindmaster.png"); }
 
-.no-webp .new__left-zapier{
+.new__left-zapier{
   background-image: url("../img/new__left-zapier.png"); }
 
 .new__right {
@@ -5158,13 +5158,13 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-size: contain;
 }
 
-.no-webp .brands__top-google{
+.brands__top-google{
   background-image: url("../img/brands__top-google.png"); }
 
-.no-webp .brands__top-netflix{
+.brands__top-netflix{
   background-image: url("../img/brands__top-netflix.png"); }
 
-.no-webp .brands__top-airbnb{
+.brands__top-airbnb{
   background-image: url("../img/brands__top-airbnb.png"); }
 
 .brands__subdescr {
@@ -5277,13 +5277,13 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
   background-size: contain;
 }
 
-.no-webp .testimonials__photo1{
+.testimonials__photo1{
   background-image: url("../img/testimonials__photo1.png"); }
 
-.no-webp .testimonials__photo2{
+.testimonials__photo2{
   background-image: url("../img/testimonials__photo2.png"); }
 
-.no-webp .testimonials__photo3{
+.testimonials__photo3{
   background-image: url("../img/testimonials__photo3.png"); }
 
 .testimonials__wrapper-text {
@@ -6134,34 +6134,34 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     height: 180px;
   }
 
-  .no-webp .ntools__left-framer{
+  .ntools__left-framer{
     background-image: url("../img/new__left-framer320.png"); }
 
-  .no-webp .ntools__left-whimsical{
+  .ntools__left-whimsical{
     background-image: url("../img/new__left-whimsical320.png"); }
 
-  .no-webp .ntools__left-mindmaster{
+  .ntools__left-mindmaster{
     background-image: url("../img/new__left-mindmaster320.png"); }
 
-  .no-webp .ntools__left-zapier{
+  .ntools__left-zapier{
     background-image: url("../img/new__left-zapier320.png"); }
 
-  .no-webp .ntools__left-atom{
+  .ntools__left-atom{
     background-image: url("../img/new__left-atom320.png"); }
 
-  .no-webp .ntools__left-marvel{
+  .ntools__left-marvel{
     background-image: url("../img/new__left-marvel320.png"); }
 
-  .no-webp .ntools__left-protoPie{
+  .ntools__left-protoPie{
     background-image: url("../img/new__left-protopie320.png"); }
 
-  .no-webp .ntools__left-mockflow{
+  .ntools__left-mockflow{
     background-image: url("../img/new__left-mockflow320.png"); }
 
-  .no-webp .ntools__left-justinmind{
+  .ntools__left-justinmind{
     background-image: url("../img/new__left-justinmind320.png"); }
 
-  .no-webp .ntools__left-interplay{
+  .ntools__left-interplay{
     background-image: url("../img/new__left-interplay320.png"); }
 
   .ntools__right {
@@ -6195,7 +6195,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     max-width: 100%;
   }
 
-  .no-webp .about__wrapper-photo{
+  .about__wrapper-photo{
     background-image: url("../img/about__back320.png"); }
 
   .about__wrapper-photo {
@@ -6337,16 +6337,16 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     height: 180px;
   }
 
-  .no-webp .new__left-framer{
+  .new__left-framer{
     background-image: url("../img/new__left-framer320.png"); }
 
-  .no-webp .new__left-whimsical{
+  .new__left-whimsical{
     background-image: url("../img/new__left-whimsical320.png"); }
 
-  .no-webp .new__left-mindmaster{
+  .new__left-mindmaster{
     background-image: url("../img/new__left-mindmaster320.png"); }
 
-  .no-webp .new__left-zapier{
+  .new__left-zapier{
     background-image: url("../img/new__left-zapier320.png"); }
 
   .new__right {
@@ -6532,34 +6532,34 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     height: 180px;
   }
 
-  .no-webp .ntools__left-framer{
+  .ntools__left-framer{
     background-image: url("../img/new__left-framer320.png"); }
 
-  .no-webp .ntools__left-whimsical{
+  .ntools__left-whimsical{
     background-image: url("../img/new__left-whimsical320.png"); }
 
-  .no-webp .ntools__left-mindmaster{
+  .ntools__left-mindmaster{
     background-image: url("../img/new__left-mindmaster320.png"); }
 
-  .no-webp .ntools__left-zapier{
+  .ntools__left-zapier{
     background-image: url("../img/new__left-zapier320.png"); }
 
-  .no-webp .ntools__left-atom{
+  .ntools__left-atom{
     background-image: url("../img/new__left-atom320.png"); }
 
-  .no-webp .ntools__left-marvel{
+  .ntools__left-marvel{
     background-image: url("../img/new__left-marvel320.png"); }
 
-  .no-webp .ntools__left-protoPie{
+  .ntools__left-protoPie{
     background-image: url("../img/new__left-protopie320.png"); }
 
-  .no-webp .ntools__left-mockflow{
+  .ntools__left-mockflow{
     background-image: url("../img/new__left-mockflow320.png"); }
 
-  .no-webp .ntools__left-justinmind{
+  .ntools__left-justinmind{
     background-image: url("../img/new__left-justinmind320.png"); }
 
-  .no-webp .ntools__left-interplay{
+  .ntools__left-interplay{
     background-image: url("../img/new__left-interplay320.png"); }
 
   .ntools__right {
@@ -6585,7 +6585,7 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
             align-items: center;
   }
 
-  .no-webp .about__wrapper-photo{
+  .about__wrapper-photo{
     background-image: url("../img/about__back320.png"); }
 
   .about__wrapper-photo {
@@ -6712,16 +6712,16 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     height: 180px;
   }
 
-  .no-webp .new__left-framer{
+  .new__left-framer{
     background-image: url("../img/new__left-framer320.png"); }
 
-  .no-webp .new__left-whimsical{
+  .new__left-whimsical{
     background-image: url("../img/new__left-whimsical320.png"); }
 
-  .no-webp .new__left-mindmaster{
+  .new__left-mindmaster{
     background-image: url("../img/new__left-mindmaster320.png"); }
 
-  .no-webp .new__left-zapier{
+  .new__left-zapier{
     background-image: url("../img/new__left-zapier320.png"); }
 
   .new__right {
@@ -6845,34 +6845,34 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     height: 180px;
   }
 
-  .no-webp .ntools__left-framer{
+  .ntools__left-framer{
     background-image: url("../img/new__left-framer320.png"); }
 
-  .no-webp .ntools__left-whimsical{
+  .ntools__left-whimsical{
     background-image: url("../img/new__left-whimsical320.png"); }
 
-  .no-webp .ntools__left-mindmaster{
+  .ntools__left-mindmaster{
     background-image: url("../img/new__left-mindmaster320.png"); }
 
-  .no-webp .ntools__left-zapier{
+  .ntools__left-zapier{
     background-image: url("../img/new__left-zapier320.png"); }
 
-  .no-webp .ntools__left-atom{
+  .ntools__left-atom{
     background-image: url("../img/new__left-atom320.png"); }
 
-  .no-webp .ntools__left-marvel{
+  .ntools__left-marvel{
     background-image: url("../img/new__left-marvel320.png"); }
 
-  .no-webp .ntools__left-protoPie{
+  .ntools__left-protoPie{
     background-image: url("../img/new__left-protopie320.png"); }
 
-  .no-webp .ntools__left-mockflow{
+  .ntools__left-mockflow{
     background-image: url("../img/new__left-mockflow320.png"); }
 
-  .no-webp .ntools__left-justinmind{
+  .ntools__left-justinmind{
     background-image: url("../img/new__left-justinmind320.png"); }
 
-  .no-webp .ntools__left-interplay{
+  .ntools__left-interplay{
     background-image: url("../img/new__left-interplay320.png"); }
 
   .ntools__right {
@@ -6989,350 +6989,4 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     -ms-grid-column-span: 3;
     grid-column: 9/12;
   }
-}
-
-.webp .ptools__top-figma{ background-image: url(../img/popular__top-figma.webp); }
-
-.webp .ptools__top-adobe{ background-image: url(../img/popular__top-adobe.webp); }
-
-.webp .ptools__top-invision{ background-image: url(../img/popular__top-invision.webp); }
-
-.webp .ptools__top-github{ background-image: url(../img/popular__top-github.webp); }
-
-.webp .ptools__top-vscode{ background-image: url(../img/popular__top-vscode.webp); }
-
-.webp .ptools__top-sketch{ background-image: url(../img/popular__top-sketch.webp); }
-
-.webp .ptools__top-pycharm{ background-image: url(../img/popular__top-pycharm.webp); }
-
-.webp .ptools__top-maze{ background-image: url(../img/popular__top-maze.webp); }
-
-.webp .ptools__top-webflow{ background-image: url(../img/popular__top-webflow.webp); }
-
-.webp .ntools__left-framer{ background-image: url(../img/new__left-framer.webp); }
-
-.webp .ntools__left-whimsical{ background-image: url(../img/new__left-whimsical.webp); }
-
-.webp .ntools__left-mindmaster{ background-image: url(../img/new__left-mindmaster.webp); }
-
-.webp .ntools__left-zapier{ background-image: url(../img/new__left-zapier.webp); }
-
-.webp .ntools__left-atom{ background-image: url(../img/new__left-atom.webp); }
-
-.webp .ntools__left-marvel{ background-image: url(../img/new__left-marvel.webp); }
-
-.webp .ntools__left-protoPie{ background-image: url(../img/new__left-protoPie.webp); }
-
-.webp .ntools__left-mockflow{ background-image: url(../img/new__left-mockflow.webp); }
-
-.webp .ntools__left-justinmind{ background-image: url(../img/new__left-justinmind.webp); }
-
-.webp .ntools__left-interplay{ background-image: url(../img/new__left-interplay.webp); }
-
-.webp .hero4{ background-image: url(../img/hero4__bg.webp); }
-
-.webp .about__wrapper-photo{ background-image: url(../img/about__back.webp); }
-
-.webp .people__photo1{ background-image: url(../img/people__photo1.webp); }
-
-.webp .people__photo2{ background-image: url(../img/people__photo2.webp); }
-
-.webp .people__photo3{ background-image: url(../img/people__photo3.webp); }
-
-.webp .hero__right-wrapper{ background-image: url(../img/hero__right1.webp), url(../img/hero__right2.webp), url(../img/hero__right3.webp), url(../img/hero__right4.webp), url(../img/hero__right5.webp), url(../img/hero__right6.webp); }
-
-@-webkit-keyframes change-back1145{
-
-  .webp 0%{ background-image: url(../img/hero__right1.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 16%{ background-image: url(../img/hero__right2.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 32%{ background-image: url(../img/hero__right3.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 49%{ background-image: url(../img/hero__right4.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 66%{ background-image: url(../img/hero__right5.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 84%{ background-image: url(../img/hero__right6.webp); }
-}
-
-@-webkit-keyframes change-back1145{
-
-  .webp 100%{ background-image: url(../img/hero__right1.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 0%{ background-image: url(../img/hero__right1.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 16%{ background-image: url(../img/hero__right2.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 32%{ background-image: url(../img/hero__right3.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 49%{ background-image: url(../img/hero__right4.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 66%{ background-image: url(../img/hero__right5.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 84%{ background-image: url(../img/hero__right6.webp); }
-}
-
-@keyframes change-back1145{
-
-  .webp 100%{ background-image: url(../img/hero__right1.webp); }
-}
-
-.webp .popular__top-figma{ background-image: url(../img/popular__top-figma.webp); }
-
-.webp .popular__top-adobe{ background-image: url(../img/popular__top-adobe.webp); }
-
-.webp .popular__top-invision{ background-image: url(../img/popular__top-invision.webp); }
-
-.webp .new__left-framer{ background-image: url(../img/new__left-framer.webp); }
-
-.webp .new__left-whimsical{ background-image: url(../img/new__left-whimsical.webp); }
-
-.webp .new__left-mindmaster{ background-image: url(../img/new__left-mindmaster.webp); }
-
-.webp .new__left-zapier{ background-image: url(../img/new__left-zapier.webp); }
-
-.webp .brands__top-google{ background-image: url(../img/brands__top-google.webp); }
-
-.webp .brands__top-netflix{ background-image: url(../img/brands__top-netflix.webp); }
-
-.webp .brands__top-airbnb{ background-image: url(../img/brands__top-airbnb.webp); }
-
-.webp .testimonials__photo1{ background-image: url(../img/testimonials__photo1.webp); }
-
-.webp .testimonials__photo2{ background-image: url(../img/testimonials__photo2.webp); }
-
-.webp .testimonials__photo3{ background-image: url(../img/testimonials__photo3.webp); }
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-framer{ background-image: url(../img/new__left-framer320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-whimsical{ background-image: url(../img/new__left-whimsical320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-mindmaster{ background-image: url(../img/new__left-mindmaster320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-zapier{ background-image: url(../img/new__left-zapier320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-atom{ background-image: url(../img/new__left-atom320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-marvel{ background-image: url(../img/new__left-marvel320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-protoPie{ background-image: url(../img/new__left-protopie320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-mockflow{ background-image: url(../img/new__left-mockflow320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-justinmind{ background-image: url(../img/new__left-justinmind320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .ntools__left-interplay{ background-image: url(../img/new__left-interplay320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .about__wrapper-photo{ background-image: url(../img/about__back320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .new__left-framer{ background-image: url(../img/new__left-framer320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .new__left-whimsical{ background-image: url(../img/new__left-whimsical320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .new__left-mindmaster{ background-image: url(../img/new__left-mindmaster320.webp); }
-}
-
-@media (min-width: 320px) and (max-width: 519px){
-
-  .webp .new__left-zapier{ background-image: url(../img/new__left-zapier320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-framer{ background-image: url(../img/new__left-framer320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-whimsical{ background-image: url(../img/new__left-whimsical320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-mindmaster{ background-image: url(../img/new__left-mindmaster320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-zapier{ background-image: url(../img/new__left-zapier320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-atom{ background-image: url(../img/new__left-atom320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-marvel{ background-image: url(../img/new__left-marvel320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-protoPie{ background-image: url(../img/new__left-protopie320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-mockflow{ background-image: url(../img/new__left-mockflow320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-justinmind{ background-image: url(../img/new__left-justinmind320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .ntools__left-interplay{ background-image: url(../img/new__left-interplay320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .about__wrapper-photo{ background-image: url(../img/about__back320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .new__left-framer{ background-image: url(../img/new__left-framer320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .new__left-whimsical{ background-image: url(../img/new__left-whimsical320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .new__left-mindmaster{ background-image: url(../img/new__left-mindmaster320.webp); }
-}
-
-@media (min-width: 520px) and (max-width: 767px){
-
-  .webp .new__left-zapier{ background-image: url(../img/new__left-zapier320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-framer{ background-image: url(../img/new__left-framer320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-whimsical{ background-image: url(../img/new__left-whimsical320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-mindmaster{ background-image: url(../img/new__left-mindmaster320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-zapier{ background-image: url(../img/new__left-zapier320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-atom{ background-image: url(../img/new__left-atom320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-marvel{ background-image: url(../img/new__left-marvel320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-protoPie{ background-image: url(../img/new__left-protopie320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-mockflow{ background-image: url(../img/new__left-mockflow320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-justinmind{ background-image: url(../img/new__left-justinmind320.webp); }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-
-  .webp .ntools__left-interplay{ background-image: url(../img/new__left-interplay320.webp); }
 }
