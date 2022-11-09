@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/header__logo.svg" type="image/svg">
+   <link rel="stylesheet" href="css/vendor.css?_v=20221109160007">
+   <link rel="stylesheet" href="css/style.css?_v=20221109160007">
+   <title>G-tools</title>
+</head>
+  <body class="page__body">
+    <div>
+      <header class="header">
+   <div class="container header__container appearance">
+      <a class="header__logo">
+         <img src="../img/header__logo.svg" alt="G-tools Logo" class="header__img">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list list-reset">
+          <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+          <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+          <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+          <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+        </ul>
+      </nav>
+      <nav class="nav header__nav__mobile">
+         <ul class="header__list list-reset">
+            <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+            <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+            <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+            <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+          </ul>
+          <button class="btn btn-reset header__btn" href="login.php" id="loginLink2">Login</button>
+       </nav>
+       <a class="btn btn-reset header__btn header__btn-first" href="login.php" id="loginLink">Login</a>
+      <button class="header__burger burger-close burger-open" id="burger" aria-label="Кнопка раскрытия меню">
+         <span>toggle menu</span>
+      </button>
+   </div>
+         <div class="modal" style="display: none;">
+            <div class="modal__wrapper">
+               <div class="modal__content" id="loginTarget">
+                     <a class="modal__close">x</a>
+                     <h3>Login</h3>
+                     <form method="post" class="modal__form" action="login.php">
+                        <label class="modal__label" for="username">
+                           Username:
+                           <input class="modal__input" type="text" name="username" id="username" placeholder="Enter username" pattern="^[a-zA-Z][a-zA-Z0-9-_.]{8,20}$" required />
+                        </label>
+                        <label class="modal__label" for="password">
+                           Password:
+                           <input class="modal__input" type="password" name="password" id="password" placeholder="Enter password" pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])(?=.*[a-z]).*$" required />
+                        </label>
+                        <button class="modal__btn" type="submit">Log in</button>
+                     </form>
+               </div>
+            </div>
+         </div>
+</header>
+      <main class="main">
+        <section class="hero4">
+   <div class="container hero4__container appearance">
+      <div class="hero4__wrapper">
+         <h1 class="hero4__title">We enable designer & developers 
+            to <span>build amazing things</span></h1>
+         <p class="hero4__descr">We have transformed product development, making it faster, simpler... better! That's why in just three years we now help more developers build projects than anyone else.</p>
+      </div>
+   </div>
+</section>
+        <section class="about">
+   <div class="container about__container appearance">
+      <h2 class="about__title about__anim1 appearance">Simple is growing. Grow with us.</h2>
+      <p class="about__descr about__anim2 appearance">On Gear, moments of frustration are replaced with simple features that support your every twist and turn, so you can focus on the work that matters.</p>
+      <div class="about__wrapper-photo about__anim3 appearance"></div>
+   </div>
+</section>
+        <section class="people">
+   <div class="container people__container appearance">
+      <h2 class="people__title people__anim1 reveal box-1">The humans behind the product</h2>
+      <p class="people__descr people__anim2 reveal box-2">Most popular tools for designer and developer</p>
+      <div class="people__wrapper-grid">
+         <ul class="people__list list-reset">
+            <li class="people__item people__item1 reveal box-4 duration-1">
+               <div class="people__photo people__photo1"></div>
+               <div class="people__wrapper-text">
+                  <h3 class="people__name">Wahid Ari</h3>
+                  <span class="people__job">CEO & Co-founder</span>
+                  <p class="people__subdescr">Known as one of the most visionary legal tech entrepreneurs worldwide.</p>
+                  <a href="#" class="people__link">Github - Linkedin</a>
+               </div>
+            </li>
+            <li class="people__item people__item2 reveal box-5 duration-2">
+               <div class="people__photo people__photo2"></div>
+               <div class="people__wrapper-text">
+                  <h3 class="people__name">Ari</h3>
+                  <span class="people__job">Head of Design</span>
+                  <p class="people__subdescr">Expert on distributed work culture, cross-functional product teams and the future of work.</p>
+                  <a href="#" class="people__link">Github - Linkedin</a>
+               </div>
+            </li>
+            <li class="people__item people__item3 reveal box-6 duration-3">
+               <div class="people__photo people__photo3"></div>
+               <div class="people__wrapper-text">
+                  <h3 class="people__name">Wahid</h3>
+                  <span class="people__job">Front-end Engineer</span>
+                  <p class="people__subdescr">Expert on legal innovation, engages actively in debates, and frequently publishes about client-driven</p>
+                  <a href="#" class="people__link">Github - Linkedin</a>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+      </main>
+      <footer class="footer">
+   <div class="container footer__container">
+      <h2 class="footer__title title reveal box-1">Subscribe</h2>
+      <p class="footer__descr descr reveal box-1">Subscribe to get exclusive news & offer</p>
+      <form action="#" method="POST" class="footer__form form reveal box-1" id="form">
+         <label for="email" class="footer__label">
+            <input id="email" type="text" class="footer__input" placeholder="Email address">
+         </label>
+         <button class="btn-reset footer__btn">Subscribe</button>
+      </form>
+      <span class="footer__divide reveal box-1"></span>
+      <div class="footer__wrapper">
+         <div class="footer__social reveal box-11 duration-2">
+            <img src="../img/footer__logo.svg" alt="G-tools Logo" class="footer__logo">
+            <ul class="footer__social-list list-reset">
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--fb"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--inst"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--tw"></a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__resource reveal box-11 duration-2">
+            <h3 class="footer__subtitle">Resource</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="../index-about.html" class="footer__sublink">About Us</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Blog</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Contact</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">FAQ</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__legal reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Legal Stuff</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Disclaimer</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Financing</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Privacy Policy</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Terms of Service</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__office reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Office</h3>
+            <a href="#" class="footer__sublink">gear@gmail.com</a>
+            <address class="footer__address">Jln. Soekarno Hatta No 1A Jakarta, Indonesia</address>
+         </div>
+      </div>
+   </div>
+   <p class="footer__disclaimer">Made With Love By Gear All Right Reserved</p>
+</footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js?_v=20221109160007"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js?_v=20221109160007"></script>
+    <script src="js/vendor/just-validate3.3.3.min.js?_v=20221109160007"></script>
+    <script src="js/app.min.js?_v=20221109160007"></script>
+  </body>
+</html>

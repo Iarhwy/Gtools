@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/header__logo.svg" type="image/svg">
+   <link rel="stylesheet" href="css/vendor.css?_v=20221109160007">
+   <link rel="stylesheet" href="css/style.css?_v=20221109160007">
+   <title>G-tools</title>
+</head>
+  <body class="page__body">
+    <div>
+      <header class="header">
+   <div class="container header__container appearance">
+      <a class="header__logo">
+         <img src="../img/header__logo.svg" alt="G-tools Logo" class="header__img">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list list-reset">
+          <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+          <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+          <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+          <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+        </ul>
+      </nav>
+      <nav class="nav header__nav__mobile">
+         <ul class="header__list list-reset">
+            <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+            <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+            <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+            <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+          </ul>
+          <button class="btn btn-reset header__btn" href="login.php" id="loginLink2">Login</button>
+       </nav>
+       <a class="btn btn-reset header__btn header__btn-first" href="login.php" id="loginLink">Login</a>
+      <button class="header__burger burger-close burger-open" id="burger" aria-label="Кнопка раскрытия меню">
+         <span>toggle menu</span>
+      </button>
+   </div>
+         <div class="modal" style="display: none;">
+            <div class="modal__wrapper">
+               <div class="modal__content" id="loginTarget">
+                     <a class="modal__close">x</a>
+                     <h3>Login</h3>
+                     <form method="post" class="modal__form" action="login.php">
+                        <label class="modal__label" for="username">
+                           Username:
+                           <input class="modal__input" type="text" name="username" id="username" placeholder="Enter username" pattern="^[a-zA-Z][a-zA-Z0-9-_.]{8,20}$" required />
+                        </label>
+                        <label class="modal__label" for="password">
+                           Password:
+                           <input class="modal__input" type="password" name="password" id="password" placeholder="Enter password" pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])(?=.*[a-z]).*$" required />
+                        </label>
+                        <button class="modal__btn" type="submit">Log in</button>
+                     </form>
+               </div>
+            </div>
+         </div>
+</header>
+      <main class="main">
+        <section class="hero">
+  <div class="container hero__container appearance">
+   <div class="hero__left">
+      <h1 class="hero__title">Tools for Designer, Developer, and Business Owner</h1>
+      <p class="hero__descr">Information about the latest and most popular design and developer tools around the world.</p>
+      <a class="btn btn-reset hero__btn scroll-link" href="#popular">Explore Now</a>
+      <p class="hero__users"><span>4,000</span>+ User using the tools</p>
+   </div>
+   <div class="hero__right">
+    <div class="hero__right-wrapper"></div>
+   </div>
+  </div>
+</section>
+
+        <section class="amount">
+   <div class="container amount__container">
+      <ul class="amount__list list-reset">
+         <li class="amount__item appearance amount__item1">
+            <span class="amount__numbers amount__numbers-blue">100+</span>
+            <h2 class="amount__title">Total&nbsp;Tools</h2>
+            <p class="amount__descr">Lot of tools that offer free and premium features</p>
+         </li>
+         <li class="amount__item appearance amount__item2">
+            <span class="amount__numbers amount__numbers-green">50+</span>
+            <h2 class="amount__title">Free&nbsp;Tools</h2>
+            <p class="amount__descr">Explore free tools that would help you achieve something</p>
+         </li>
+         <li class="amount__item appearance amount__item3">
+            <span class="amount__numbers amount__numbers-red">40+</span>
+            <h2 class="amount__title">Premium&nbsp;Tools</h2>
+            <p class="amount__descr">Need more feature? Lets try the premium tools</p>
+         </li>
+      </ul>
+   </div>
+</section>
+        <section class="popular" id="popular">
+  <div class="container popular__container">
+   <h2 class="popular__title title appearance">Most Popular Tools</h2>
+   <p class="popular__descr descr appearance">Most popular tools for designer and developer</p>
+   <ul class="popular__list list-reset">
+      <li class="popular__item popular__item1 reveal box-3 duration-1" tabindex="0">
+         <div class="popular__link">
+            <div class="popular__top popular__top-figma"></div>
+            <div class="popular__bottom">
+               <div class="popular__wrapper-title">
+                  <h3 class="popular__subtitle">Figma</h3>
+                  <span class="popular__cost">Free</span>
+               </div>
+               <p class="popular__subdescr">Figma helps the teams to create, test, and ship better designs from start to finish.</p>
+               <div class="popular__wrapper-sublinks">
+                  <a href="" class="popular__sublink">Design</a>
+                  <a href="" class="popular__sublink">Development</a>
+               </div>
+            </div>
+         </div>
+      </li>
+      <li class="popular__item popular__item2 reveal box-4 duration-2" tabindex="0">
+         <div class="popular__link">
+            <div class="popular__top popular__top-adobe"></div>
+            <div class="popular__bottom">
+               <div class="popular__wrapper-title">
+                  <h3 class="popular__subtitle">Adobe XD</h3>
+                  <span class="popular__cost">Free</span>
+               </div>
+               <p class="popular__subdescr">Adobe XD is your UI/UX design solution platform for website and mobile app creation.</p>
+               <div class="popular__wrapper-sublinks">
+                  <a href="" class="popular__sublink">Design</a>
+                  <a href="" class="popular__sublink">Development</a>
+               </div>
+            </div>
+         </div>
+      </li>
+      <li class="popular__item popular__item3 reveal box-5 duration-3" tabindex="0">
+         <div class="popular__link">
+            <div class="popular__top popular__top-invision"></div>
+            <div class="popular__bottom">
+               <div class="popular__wrapper-title">
+                  <h3 class="popular__subtitle">InVision</h3>
+                  <span class="popular__cost popular__cost-premium">Premium</span>
+               </div>
+               <p class="popular__subdescr">InVision is the digital product design platform used to make the world's best customer experiences.</p>
+               <div class="popular__wrapper-sublinks">
+                  <a href="" class="popular__sublink">Design</a>
+                  <a href="" class="popular__sublink">Development</a>
+               </div>
+            </div>
+         </div>
+      </li>
+   </ul>
+   <a href="../index-popular.html" class="popular__link-more reveal box-6 duration-3">See All</a>
+  </div>
+</section>
+        <section class="new">
+   <div class="container new__container">
+    <h2 class="new__title title reveal box-1">New Comer Tools</h2>
+    <p class="new__descr descr reveal box-2">New tools gains popularity</p>
+    <ul class="new__list list-reset">
+       <li class="new__item new__item1 reveal box-4 duration-1" tabindex="0">
+          <div class="new__link">
+             <div class="new__left new__left-framer"></div>
+             <div class="new__right">
+                <div class="new__wrapper-title">
+                   <h3 class="new__subtitle">Framer</h3>
+                   <span class="new__cost">Free</span>
+                </div>
+                <p class="new__subdescr">It's prototyping made simple—no code required, browser-based.</p>
+                <div class="new__wrapper-sublinks">
+                   <a href="" class="new__sublink">Design</a>
+                   <a href="" class="new__sublink">Development</a>
+                </div>
+             </div>
+          </div>
+       </li>
+       <li class="new__item new__item2 reveal box-5 duration-2" tabindex="0">
+          <div class="new__link">
+             <div class="new__left new__left-whimsical"></div>
+             <div class="new__right">
+                <div class="new__wrapper-title">
+                   <h3 class="new__subtitle">Whimsical</h3>
+                   <span class="new__cost">Free</span>
+                </div>
+                <p class="new__subdescr">Communicate visually at the speed of thought – collaborative flowcharts.</p>
+                <div class="new__wrapper-sublinks">
+                   <a href="" class="new__sublink">Design</a>
+                   <a href="" class="new__sublink">Development</a>
+                </div>
+             </div>
+          </div>
+       </li>
+       <li class="new__item new__item3 reveal box-6 duration-1" tabindex="0">
+          <div class="new__link">
+             <div class="new__left new__left-mindmaster"></div>
+             <div class="new__right">
+                <div class="new__wrapper-title">
+                   <h3 class="new__subtitle">MindMaster</h3>
+                   <span class="new__cost new__cost-30days">Free 30 days</span>
+                </div>
+                <p class="new__subdescr">Full-featured collaborative mind mapping and brainstorming tool.</p>
+                <div class="new__wrapper-sublinks">
+                   <a href="" class="new__sublink">Design</a>
+                   <a href="" class="new__sublink">Development</a>
+                </div>
+             </div>
+          </div>
+       </li>
+       <li class="new__item new__item4 reveal box-7 duration-2" tabindex="0">
+         <div class="new__link">
+            <div class="new__left new__left-zapier"></div>
+            <div class="new__right">
+               <div class="new__wrapper-title">
+                  <h3 class="new__subtitle">Zapier</h3>
+                  <span class="new__cost new__cost-premium">Premium</span>
+               </div>
+               <p class="new__subdescr">Zapier moves info between your web apps automatically.</p>
+               <div class="new__wrapper-sublinks">
+                  <a href="" class="new__sublink">Design</a>
+                  <a href="" class="new__sublink">Development</a>
+               </div>
+            </div>
+         </div>
+      </li>
+    </ul>
+    <a href="../index-new.html" class="new__link-more reveal box-8 duration-3">See All</a>
+   </div>
+ </section>
+        <section class="brands">
+   <div class="container brands__container">
+      <h2 class="brands__title title reveal box-1">Trusted by Brands</h2>
+      <p class="brands__descr descr reveal box-2">Brand that using the tools</p>
+      <ul class="brands__list list-reset">
+         <li class="brands__item brands__item1 reveal box-3 duration-1" tabindex="0">
+            <div class="brands__top brands__top-google"></div>
+            <div class="brands__bottom">
+               <p class="brands__subdescr">Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking</p>
+            </div>
+         </li>
+         <li class="brands__item brands__item2 reveal box-4 duration-2" tabindex="0">
+            <div class="brands__top brands__top-netflix"></div>
+            <div class="brands__bottom">
+               <p class="brands__subdescr">Streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices</p>
+            </div>
+         </li>
+         <li class="brands__item brands__item3 reveal box-5 duration-3" tabindex="0">
+            <div class="brands__top brands__top-airbnb"></div>
+            <div class="brands__bottom">
+               <p class="brands__subdescr">American vacation rental online marketplace company based in San Francisco, California. Airbnb maintains and hosts a marketplace</p>
+            </div>
+         </li>
+      </ul>
+   </div>
+</section>
+        <section class="testimonials">
+   <div class="container testimonials__container">
+      <h2 class="testimonials__title title reveal box-1">Testimonial</h2>
+      <p class="testimonials__descr descr reveal box-2">Designer and developer using the best tools</p>
+      <ul class="testimonials__list list-reset">
+         <li class="testimonials__item testimonials__item1 reveal box-3 duration-1" tabindex="0">
+            <span class="testimonials__rating"></span>
+            <p class="testimonials__subdescr">Gear Menyediakan informasi tools yang powerful untuk Designer, Developer, dan juga Business Owner agar bisa lebih produktif</p>
+            <div class="testimonials__wrapper-user">
+               <div class="testimonials__photo testimonials__photo1"></div>
+               <div class="testimonials__wrapper-text">
+                  <span class="testimonials__name">Wahid Ari</span>
+                  <span class="testimonials__job">Designer</span>
+               </div>
+            </div>
+         </li>
+         <li class="testimonials__item testimonials__item2 reveal box-4 duration-2" tabindex="0">
+            <span class="testimonials__rating"></span>
+            <p class="testimonials__subdescr">Gear Menyediakan informasi tools yang powerful untuk Designer, Developer, dan juga Business Owner agar bisa lebih produktif</p>
+            <div class="testimonials__wrapper-user">
+               <div class="testimonials__photo testimonials__photo2"></div>
+               <div class="testimonials__wrapper-text">
+                  <span class="testimonials__name">Wahid</span>
+                  <span class="testimonials__job">Developer</span>
+               </div>
+            </div>
+         </li>
+         <li class="testimonials__item testimonials__item3 reveal box-5 duration-3" tabindex="0">
+            <span class="testimonials__rating"></span>
+            <p class="testimonials__subdescr">Gear Menyediakan informasi tools yang powerful untuk Designer, Developer, dan juga Business Owner agar bisa lebih produktif</p>
+            <div class="testimonials__wrapper-user">
+               <div class="testimonials__photo testimonials__photo3"></div>
+               <div class="testimonials__wrapper-text">
+                  <span class="testimonials__name">Ari</span>
+                  <span class="testimonials__job">UI/UX Designer</span>
+               </div>
+            </div>
+         </li>
+      </ul>
+   </div>
+</section>
+      </main>
+      <footer class="footer">
+   <div class="container footer__container">
+      <h2 class="footer__title title reveal box-1">Subscribe</h2>
+      <p class="footer__descr descr reveal box-1">Subscribe to get exclusive news & offer</p>
+      <form action="#" method="POST" class="footer__form form reveal box-1" id="form">
+         <label for="email" class="footer__label">
+            <input id="email" type="text" class="footer__input" placeholder="Email address">
+         </label>
+         <button class="btn-reset footer__btn">Subscribe</button>
+      </form>
+      <span class="footer__divide reveal box-1"></span>
+      <div class="footer__wrapper">
+         <div class="footer__social reveal box-11 duration-2">
+            <img src="../img/footer__logo.svg" alt="G-tools Logo" class="footer__logo">
+            <ul class="footer__social-list list-reset">
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--fb"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--inst"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--tw"></a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__resource reveal box-11 duration-2">
+            <h3 class="footer__subtitle">Resource</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="../index-about.html" class="footer__sublink">About Us</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Blog</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Contact</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">FAQ</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__legal reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Legal Stuff</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Disclaimer</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Financing</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Privacy Policy</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Terms of Service</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__office reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Office</h3>
+            <a href="#" class="footer__sublink">gear@gmail.com</a>
+            <address class="footer__address">Jln. Soekarno Hatta No 1A Jakarta, Indonesia</address>
+         </div>
+      </div>
+   </div>
+   <p class="footer__disclaimer">Made With Love By Gear All Right Reserved</p>
+</footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js?_v=20221109160007"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js?_v=20221109160007"></script>
+    <script src="js/vendor/just-validate3.3.3.min.js?_v=20221109160007"></script>
+    <script src="js/app.min.js?_v=20221109160007"></script>
+  </body>
+</html>

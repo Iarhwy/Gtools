@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="img/header__logo.svg" type="image/svg">
+   <link rel="stylesheet" href="css/vendor.css?_v=20221109160007">
+   <link rel="stylesheet" href="css/style.css?_v=20221109160007">
+   <title>G-tools</title>
+</head>
+  <body class="page__body">
+    <div>
+      <header class="header">
+   <div class="container header__container appearance">
+      <a class="header__logo">
+         <img src="../img/header__logo.svg" alt="G-tools Logo" class="header__img">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list list-reset">
+          <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+          <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+          <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+          <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+        </ul>
+      </nav>
+      <nav class="nav header__nav__mobile">
+         <ul class="header__list list-reset">
+            <li class="header__item"><a href="../index.html" class="header__link">Home</a></li>
+            <li class="header__item"><a href="../index-popular.html" class="header__link">Popular</a></li>
+            <li class="header__item"><a href="../index-new.html" class="header__link">New Comer</a></li>
+            <li class="header__item"><a href="../index-about.html" class="header__link">About</a></li>
+          </ul>
+          <button class="btn btn-reset header__btn" href="login.php" id="loginLink2">Login</button>
+       </nav>
+       <a class="btn btn-reset header__btn header__btn-first" href="login.php" id="loginLink">Login</a>
+      <button class="header__burger burger-close burger-open" id="burger" aria-label="Кнопка раскрытия меню">
+         <span>toggle menu</span>
+      </button>
+   </div>
+         <div class="modal" style="display: none;">
+            <div class="modal__wrapper">
+               <div class="modal__content" id="loginTarget">
+                     <a class="modal__close">x</a>
+                     <h3>Login</h3>
+                     <form method="post" class="modal__form" action="login.php">
+                        <label class="modal__label" for="username">
+                           Username:
+                           <input class="modal__input" type="text" name="username" id="username" placeholder="Enter username" pattern="^[a-zA-Z][a-zA-Z0-9-_.]{8,20}$" required />
+                        </label>
+                        <label class="modal__label" for="password">
+                           Password:
+                           <input class="modal__input" type="password" name="password" id="password" placeholder="Enter password" pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])(?=.*[a-z]).*$" required />
+                        </label>
+                        <button class="modal__btn" type="submit">Log in</button>
+                     </form>
+               </div>
+            </div>
+         </div>
+</header>
+      <main class="main">
+        <section class="hero2">
+   <div class="container hero2__container appearance">
+      <div class="hero2__wrapper">
+         <h1 class="hero2__title">Most popular tools</h1>
+         <p class="hero2__descr">Most popular tools for designer and developer</p>
+         <a class="btn btn-reset hero2__btn scroll-link" href="#ptools">Explore now</a>
+      </div>
+   </div>
+</section>
+        <section class="ptools" id="ptools">
+  <div class="container ptools__container">
+    <div class="ptools__tabs tabs">
+      <div class="tabs__content tabs__content--active" data-tabs-target="first">
+        <div class="content">
+          <ul class="content__list list-reset">
+            <li class="content__item content__item1 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-figma"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Figma</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                    Figma helps the teams to create, test, and ship better
+                    designs from start to finish.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item2 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-adobe"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Adobe XD</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Adobe XD is your UI/UX design solution platform for website and mobile app creation.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item3 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-invision"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">InVision</h3>
+                    <span class="ptools__cost ptools__cost-premium">Premium</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     InVision is the digital product design platform used to make the world's best customer experiences.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item4 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-github"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Github</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     What is GitHub? GitHub is a code hosting platform for version control and collaboration.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item5 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-vscode"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">VS Code</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Code editor redefined and optimized for building and debugging modern web and cloud applications.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item6 appearance" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-sketch"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Sketch</h3>
+                    <span class="ptools__cost ptools__cost-premium">Premium</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Sketch is a design toolkit built to help you create your best work - from your earliest ideas, through to final artwork.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item7 reveal box-4 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-pycharm"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">PyCharm</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Intelligent Python Assistance. PyCharm provides smart code completion, code inspections, on-the-fly error.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item8 reveal box-5 duration-2" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-maze"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Maze</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Maze makes it easy to gather user insights by integrating into existing design and prototyping workflow.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item9 reveal box-6 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-webflow"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Webflow</h3>
+                    <span class="ptools__cost ptools__cost-30days">Free 30 days</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Build responsive websites in your browser, then launch with a hosting or export your code.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="tabs__content" data-tabs-target="second">
+        <div class="content">
+         <ul class="content__list list-reset">
+            <li class="content__item content__item1 reveal box-1 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-adobe"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Adobe XD</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Adobe XD is your UI/UX design solution platform for website and mobile app creation.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item2 reveal box-2 duration-2" tabindex="0">
+               <div class="ptools__link">
+                 <div class="ptools__top ptools__top-figma"></div>
+                 <div class="ptools__bottom">
+                   <div class="ptools__wrapper-title">
+                     <h3 class="ptools__subtitle">Figma</h3>
+                     <span class="ptools__cost">Free</span>
+                   </div>
+                   <p class="ptools__subdescr">
+                     Figma helps the teams to create, test, and ship better
+                     designs from start to finish.
+                   </p>
+                   <div class="ptools__wrapper-sublinks">
+                     <a href="" class="ptools__sublink">Design</a>
+                     <a href="" class="ptools__sublink">Development</a>
+                   </div>
+                 </div>
+               </div>
+             </li>
+            <li class="content__item content__item3 reveal box-3 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-github"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Github</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     What is GitHub? GitHub is a code hosting platform for version control and collaboration.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item4 reveal box-1 duration-1" tabindex="0">
+               <div class="ptools__link">
+                 <div class="ptools__top ptools__top-invision"></div>
+                 <div class="ptools__bottom">
+                   <div class="ptools__wrapper-title">
+                     <h3 class="ptools__subtitle">InVision</h3>
+                     <span class="ptools__cost ptools__cost-premium">Premium</span>
+                   </div>
+                   <p class="ptools__subdescr">
+                      InVision is the digital product design platform used to make the world's best customer experiences.
+                   </p>
+                   <div class="ptools__wrapper-sublinks">
+                     <a href="" class="ptools__sublink">Design</a>
+                     <a href="" class="ptools__sublink">Development</a>
+                   </div>
+                 </div>
+               </div>
+             </li>
+            <li class="content__item content__item5 reveal box-2 duration-2" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-sketch"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Sketch</h3>
+                    <span class="ptools__cost ptools__cost-premium">Premium</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Sketch is a design toolkit built to help you create your best work - from your earliest ideas, through to final artwork.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item6 reveal box-3 duration-3" tabindex="0">
+               <div class="ptools__link">
+                 <div class="ptools__top ptools__top-vscode"></div>
+                 <div class="ptools__bottom">
+                   <div class="ptools__wrapper-title">
+                     <h3 class="ptools__subtitle">VS Code</h3>
+                     <span class="ptools__cost">Free</span>
+                   </div>
+                   <p class="ptools__subdescr">
+                      Code editor redefined and optimized for building and debugging modern web and cloud applications.
+                   </p>
+                   <div class="ptools__wrapper-sublinks">
+                     <a href="" class="ptools__sublink">Design</a>
+                     <a href="" class="ptools__sublink">Development</a>
+                   </div>
+                 </div>
+               </div>
+             </li>
+            <li class="content__item content__item7 reveal box-1 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-maze"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Maze</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Maze makes it easy to gather user insights by integrating into existing design and prototyping workflow.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item8 reveal box-2 duration-2" tabindex="0">
+               <div class="ptools__link">
+                 <div class="ptools__top ptools__top-pycharm"></div>
+                 <div class="ptools__bottom">
+                   <div class="ptools__wrapper-title">
+                     <h3 class="ptools__subtitle">PyCharm</h3>
+                     <span class="ptools__cost">Free</span>
+                   </div>
+                   <p class="ptools__subdescr">
+                      Intelligent Python Assistance. PyCharm provides smart code completion, code inspections, on-the-fly error.
+                   </p>
+                   <div class="ptools__wrapper-sublinks">
+                     <a href="" class="ptools__sublink">Design</a>
+                     <a href="" class="ptools__sublink">Development</a>
+                   </div>
+                 </div>
+               </div>
+             </li>
+            <li class="content__item content__item9 reveal box-3 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-webflow"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Webflow</h3>
+                    <span class="ptools__cost ptools__cost-30days">Free 30 days</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Build responsive websites in your browser, then launch with a hosting or export your code.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="tabs__content" data-tabs-target="third">
+        <div class="content">
+         <ul class="content__list list-reset">
+            <li class="content__item content__item1 reveal box-1 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-figma"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Figma</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                    Figma helps the teams to create, test, and ship better
+                    designs from start to finish.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item2 reveal box-2 duration-2" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-adobe"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Adobe XD</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Adobe XD is your UI/UX design solution platform for website and mobile app creation.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item3 reveal box-3 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-invision"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">InVision</h3>
+                    <span class="ptools__cost ptools__cost-premium">Premium</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     InVision is the digital product design platform used to make the world's best customer experiences.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item4 reveal box-1 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-github"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Github</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     What is GitHub? GitHub is a code hosting platform for version control and collaboration.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item5 reveal box-2 duration-2" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-vscode"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">VS Code</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Code editor redefined and optimized for building and debugging modern web and cloud applications.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item6 reveal box-3 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-sketch"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Sketch</h3>
+                    <span class="ptools__cost ptools__cost-premium">Premium</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Sketch is a design toolkit built to help you create your best work - from your earliest ideas, through to final artwork.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item7 reveal box-1 duration-1" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-pycharm"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">PyCharm</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Intelligent Python Assistance. PyCharm provides smart code completion, code inspections, on-the-fly error.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item8 reveal box-2 duration-2" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-maze"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Maze</h3>
+                    <span class="ptools__cost">Free</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Maze makes it easy to gather user insights by integrating into existing design and prototyping workflow.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="content__item content__item9 reveal box-3 duration-3" tabindex="0">
+              <div class="ptools__link">
+                <div class="ptools__top ptools__top-webflow"></div>
+                <div class="ptools__bottom">
+                  <div class="ptools__wrapper-title">
+                    <h3 class="ptools__subtitle">Webflow</h3>
+                    <span class="ptools__cost ptools__cost-30days">Free 30 days</span>
+                  </div>
+                  <p class="ptools__subdescr">
+                     Build responsive websites in your browser, then launch with a hosting or export your code.
+                  </p>
+                  <div class="ptools__wrapper-sublinks">
+                    <a href="" class="ptools__sublink">Design</a>
+                    <a href="" class="ptools__sublink">Development</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <ul class="tabs__list list-reset">
+        <li class="tabs__item">
+          <button
+            class="tabs__btn tabs__btn--active tabs__btn-first"
+            data-tabs-path="first"
+            aria-label="Кнопка страницы номер 1"
+          >
+            1
+          </button>
+        </li>
+        <li class="tabs__item">
+          <button
+            class="tabs__btn tabs__btn-second"
+            data-tabs-path="second"
+            aria-label="Кнопка страницы номер 2"
+          >
+            2
+          </button>
+        </li>
+        <li class="tabs__item">
+          <button
+            class="tabs__btn tabs__btn-last tabs__btn-third"
+            data-tabs-path="third"
+            aria-label="Кнопка страницы номер 2"
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+   <div class="container footer__container">
+      <h2 class="footer__title title reveal box-1">Subscribe</h2>
+      <p class="footer__descr descr reveal box-1">Subscribe to get exclusive news & offer</p>
+      <form action="#" method="POST" class="footer__form form reveal box-1" id="form">
+         <label for="email" class="footer__label">
+            <input id="email" type="text" class="footer__input" placeholder="Email address">
+         </label>
+         <button class="btn-reset footer__btn">Subscribe</button>
+      </form>
+      <span class="footer__divide reveal box-1"></span>
+      <div class="footer__wrapper">
+         <div class="footer__social reveal box-11 duration-2">
+            <img src="../img/footer__logo.svg" alt="G-tools Logo" class="footer__logo">
+            <ul class="footer__social-list list-reset">
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--fb"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--inst"></a>
+               </li>
+               <li class="footer__social-item">
+                  <a href="#" class="footer__social-link footer__social-link--tw"></a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__resource reveal box-11 duration-2">
+            <h3 class="footer__subtitle">Resource</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="../index-about.html" class="footer__sublink">About Us</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Blog</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Contact</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">FAQ</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__legal reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Legal Stuff</h3>
+            <ul class="footer__sublist list-reset">
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Disclaimer</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Financing</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Privacy Policy</a>
+               </li>
+               <li class="footer__subitem">
+                  <a href="#" class="footer__sublink">Terms of Service</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__office reveal box-11 duration-3">
+            <h3 class="footer__subtitle">Office</h3>
+            <a href="#" class="footer__sublink">gear@gmail.com</a>
+            <address class="footer__address">Jln. Soekarno Hatta No 1A Jakarta, Indonesia</address>
+         </div>
+      </div>
+   </div>
+   <p class="footer__disclaimer">Made With Love By Gear All Right Reserved</p>
+</footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js?_v=20221109160007"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js?_v=20221109160007"></script>
+    <script src="js/vendor/just-validate3.3.3.min.js?_v=20221109160007"></script>
+    <script src="js/app.min.js?_v=20221109160007"></script>
+  </body>
+</html>
