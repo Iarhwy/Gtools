@@ -2353,6 +2353,8 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
 }
 
 .ntools {
+  position: relative;
+  z-index: 0;
   padding-top: 50px;
   padding-bottom: 60px;
   background-color: var(--color-light);
@@ -6103,11 +6105,6 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     grid-column: 2/12;
   }
 
-  .ntools {
-    position: relative;
-    z-index: -1;
-  }
-
   .ntools__link {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6501,11 +6498,6 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     grid-column: 2/12;
   }
 
-  .ntools {
-    position: relative;
-    z-index: -1;
-  }
-
   .ntools__link {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6815,11 +6807,6 @@ div.modal > div.modal__wrapper > div.modal__content > h3 {
     -ms-grid-column: 7;
     -ms-grid-column-span: 6;
     grid-column: 7/13;
-  }
-
-  .ntools {
-    position: relative;
-    z-index: -1;
   }
 
   .ntools__link {
