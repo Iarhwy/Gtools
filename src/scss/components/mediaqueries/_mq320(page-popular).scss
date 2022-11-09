@@ -1,0 +1,36 @@
+@media (min-width: 320px) and (max-width: 519px) {
+   .hero2 {
+      &::before {
+         background-image: url('../img/hero2__back320.svg');
+      }
+     }
+
+     .ptools {
+      &__wrapper-title {
+         flex-wrap: wrap;
+      }
+
+      &__subtitle {
+         padding-right: 10px;
+      }
+     }
+     
+      .content {
+         &__list {
+            justify-content: center;
+            column-gap: 20px;
+         }
+
+       &__item1,
+       &__item2,
+       &__item3,
+       &__item4,
+       &__item5,
+       &__item6,
+       &__item7,
+       &__item8,
+       &__item9 {
+         grid-column: 1/13;
+       }
+     }
+}

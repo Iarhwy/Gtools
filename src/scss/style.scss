@@ -1,0 +1,41 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+@import "scroll-anim";
+@import "container-anim";
+@import "burger-animation";
+@import "login-modal";
+// подключение страницы POPULAR
+@import "style-popular";
+// подключение страницы NEW
+@import "style-new";
+// подключение страницы ABOUT
+@import "style-about";
+
+// подключение главной страницы
+// подключения больших компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/amount-section";
+@import "./components/popular-section";
+@import "./components/new-section";
+@import "./components/brands-section";
+@import "./components/testimonials-section";
+@import "./components/footer";
+
+// подключения маленьких компонентов страницы
+@import "./components/interactive/header-interactive";
+@import "./components/interactive/hero-interactive";
+@import "./components/interactive/amount-interactive";
+@import "./components/interactive/popular-interactive";
+@import "./components/interactive/new-interactive";
+@import "./components/interactive/brands-interactive";
+@import "./components/interactive/testimonials-interactive";
+@import "./components/interactive/footer-interactive";
+
+// подключения медиа-запросов страницы
+@import "./components/mediaqueries/mq320";
+@import "./components/mediaqueries/mq520";
+@import "./components/mediaqueries/mq768";
+@import "./components/mediaqueries/mq1024";

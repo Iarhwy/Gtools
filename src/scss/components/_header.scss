@@ -1,0 +1,110 @@
+.header {
+  position: relative;
+  z-index: 1;
+  max-height: 80px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: var(--color-ebony);
+
+  &__container {
+    @include flex-all-sb;
+    animation: appearenceHeader 1.2s .3s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes appearenceHeader {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  &__nav__mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+    margin-top: 90px;
+    background: var(--color-ebony);
+    overflow-y: hidden;
+    visibility: hidden;
+    transform: translateY(-120%);
+    transition: visibiblity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  &__nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  &__nav__mobile .header__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  &__link {
+    color: var(--color-light);
+  }
+
+  &__nav__mobile {
+    height: min(555px, 120vw);
+  }
+
+  &__burger,
+  &__nav__mobile {
+    display: none;
+  }
+
+  &__nav {
+    width: clamp(55%, (40rem + 40vw) / 2, 650px);
+  }
+
+  &__list {
+    padding-left: 20px;
+    padding-right: 20px;
+    @include flex-all-sb;
+  }
+
+  &__link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(20px, 1.5rem + 0.4vw, 25px);
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--color-light);
+  }
+
+  &__btn {
+    max-width: calc(8.4rem + 1vw);
+    height: 40px;
+    padding: 10px 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(1.8rem + .1vw);
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--color-light);
+    background: var(--color-lochmara);
+    border-radius: 8px;
+  }
+}
+
+.burger-close {
+  width: 92px;
+  height: 92px;
+}

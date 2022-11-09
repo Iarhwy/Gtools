@@ -1,0 +1,81 @@
+.hero2 {
+  margin-top: -2px;
+  background-color: var(--color-ebony);
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    @include bg-cover;
+    background-size: contain;
+    background-image: url("../img/hero2__back.svg");
+    @include anim-pseudo;
+  }
+
+  @keyframes pseudo-appearance {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  &__wrapper {
+    padding-top: 155px;
+    padding-bottom: 155px;
+    text-align: center;
+    @include flex-all-center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__wrapper--opacity {
+    opacity: 0;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(40px, 2.4rem + 1vw, 50px);
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: var(--color-light);
+  }
+
+  &__descr {
+    margin-bottom: 35px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(18px, 0.9rem + 0.7vw, 24px);
+    line-height: 150%;
+    color: var(--color-light);
+  }
+
+  &__btn {
+   margin-bottom: 50px;
+   max-width: calc(16.4rem + 1vw);
+   height: 60px;
+   padding: 16px 27px;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 500;
+   font-size: calc(1.8rem + .1vw);
+   letter-spacing: 0.2px;
+   text-transform: capitalize;
+   color: var(--color-light);
+   background: var(--color-lochmara);
+   border-radius: 8px;
+ }
+}

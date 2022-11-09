@@ -1,0 +1,24 @@
+.people {
+
+   &__link {
+      display: inline-block;
+      transition: color .3s ease-in-out, transform .3s ease-in-out;
+   }
+
+   &__link:focus:not(:hover):not(:active) {
+      outline: transparent;
+      color: var(--color-azure);
+   }
+
+   &__link:hover {
+      outline: transparent;
+      color: var(--color-azure);
+      transform: translateY(3px);
+   }
+
+   &__link:active {
+      outline: transparent;
+      color: var(--color-dodger);
+      transform: translateY(3px);
+   }
+}

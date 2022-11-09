@@ -1,0 +1,20 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+   .about {
+      &__wrapper-photo {
+         width: 100%;
+      }
+   }
+
+  .people {
+    &__list {
+      column-gap: 45px;
+    }
+
+    &__subdescr {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.footer {
+   &__input {
+      transition: box-shadow .3s ease-in-out, transform .3s ease-in-out, background-color .3s ease-in-out;
+   }
+
+   &__input:focus:not(:hover):not(:active) {
+      outline: 2px solid var(--color-azure);
+      outline-offset: 1px;
+      background-color: var(--color-selago);
+   }
+
+   &__input:hover {
+      outline: transparent;
+      box-shadow: 0px 4px 6px var(--color-fiord);
+   }
+
+   &__btn {
+      transition: box-shadow .3s ease-in-out, transform .3s ease-in-out, background-color .3s ease-in-out;
+   }
+
+   &__btn:focus:not(:hover):not(:active) {
+      outline: 3px solid var(--color-light);
+      outline-offset: -3px;
+   }
+
+   &__btn:hover {
+      outline: transparent;
+      transform: translateY(3px);
+      box-shadow: 0px 4px 6px var(--color-zumthor);
+      background-color: var(--color-lochmara);
+   }
+
+   &__btn:active {
+      outline: transparent;
+      transform: translateY(3px);
+      background-color: var(--color-dodger);
+   }
+
+   &__social-link {
+      display: inline-block;
+      border-radius: 100px;
+      transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+   }
+
+   &__social-link:focus:not(:hover):not(:active) {
+      outline: 2px solid var(--color-azure);
+      outline-offset: 3px;
+   }
+
+   &__social-link:hover {
+      outline: transparent;
+      transform: translateY(4px);
+      box-shadow: 0px 4px 6px var(--color-zumthor);
+   }
+
+   &__social-link:active {
+      outline: transparent;
+      transform: translateY(4px) scale(1.05);
+   }
+
+   &__subitem {
+      transition: color .3s ease-in-out, transform .3s ease-in-out;
+   }
+
+   &__sublink {
+      display: inline-block;
+      transition: color .3s ease-in-out, transform .3s ease-in-out;
+   }
+
+   &__sublink:focus:not(:hover):not(:active) {
+      outline: transparent;
+      color: var(--color-azure);
+   }
+
+   &__subitem:hover &__sublink {
+      outline: transparent;
+      color: var(--color-azure);
+   }
+
+   &__sublink:hover {
+      outline: transparent;
+      color: var(--color-azure);
+      transform: translateY(3px);
+   }
+
+   &__sublink:active {
+      outline: transparent;
+      color: var(--color-dodger);
+      transform: translateY(3px);
+   }
+
+   &__subitem:active &__sublink {
+      outline: transparent;
+      color: var(--color-dodger);
+   }
+}

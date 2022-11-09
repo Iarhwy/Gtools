@@ -1,0 +1,135 @@
+.people {
+  background-color: var(--color-light);
+  padding-bottom: 90px;
+
+  &__container {
+    text-align: center;
+    @include flex-all-center;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: var(--color-space);
+    animation-delay: .9s;
+  }
+
+  &__descr {
+    width: 60.35%;
+    margin-bottom: 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-fiord);
+    animation-delay: 1.2s;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 80px;
+    animation-delay: 1.5s;
+  }
+
+  &__item {
+    height: 100%;
+    padding: 5px;
+    @include flex-all-center;
+    flex-direction: column;
+  }
+
+  &__item1 {
+    grid-column: 1 / 5;
+    animation-delay: 1.5s;
+  }
+
+  &__item2 {
+    grid-column: 5 / 9;
+    animation-delay: 1.7s;
+  }
+
+  &__item3 {
+    grid-column: 9 / 13;
+    animation-delay: 2s;
+  }
+
+  &__photo {
+    width: 150px;
+    height: 150px;
+    @include bg-cover;
+  }
+
+  &__photo1 {
+    background-image: url("../img/people__photo1.png");
+  }
+
+  &__photo2 {
+    background-image: url("../img/people__photo2.png");
+  }
+
+  &__photo3 {
+    background-image: url("../img/people__photo3.png");
+  }
+
+  &__wrapper-text {
+    margin-top: 25px;
+    height: 52%;
+    text-align: center;
+    @include flex-all-center;
+    flex-direction: column;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-ebony);
+  }
+
+  &__job {
+    margin-bottom: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: var(--color-lochmara);
+  }
+
+  &__subdescr {
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-oxford);
+  }
+
+  &__link {
+    margin-top: auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--color-ebony);
+  }
+}

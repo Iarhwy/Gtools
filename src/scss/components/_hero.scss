@@ -1,0 +1,162 @@
+.hero {
+  margin-top: -2px;
+  padding-bottom: 55px;
+  background-color: var(--color-ebony);
+  position: relative;
+  z-index: 0;
+
+  &__container {
+    @include flex-all-sb;
+  }
+
+  &__left {
+    @include flex-column;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    max-width: 557px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(40px, 2.4rem + 1vw, 50px);
+    line-height: 61px;
+    letter-spacing: 0.2px;
+    color: var(--color-light);
+  }
+
+  &__descr {
+    margin-bottom: 25px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(18px, 0.9rem + 0.7vw, 24px);
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: var(--color-light);
+  }
+
+  &__btn {
+    margin-bottom: 50px;
+    max-width: calc(16.4rem + 1vw);
+    height: 60px;
+    padding: 16px 27px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(1.8rem + .1vw);
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--color-light);
+    background: var(--color-lochmara);
+    border-radius: 8px;
+  }
+
+  &__users {
+   position: relative;
+   padding-left: 80px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(23px, calc(0.9rem + 0.6vw));
+    line-height: 24px;
+    color: var(--color-light);
+  }
+
+  &__users > span {
+   color: var(--color-lochmara);
+  }
+
+  &__users::before {
+   content: '';
+   position: absolute;
+   top: -50%;
+   left: 0;
+   width: 65px;
+   height: 46px;
+   background-image: url('../img/hero__users.svg');
+   @include bg-cover;
+  }
+
+  &__right {
+   @include flex-v-center;
+   justify-content: center;
+   position: relative;
+   width: 100%;
+   height: min(650px, 110vw);
+   overflow: hidden;
+  }
+
+  &__right::before {
+   content: "";
+   z-index: 2;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: min(190px, 30vw);
+   height: min(200px, 32vw);
+   border-radius: 40%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url('../img/header__logo.svg');
+   background-color: var(--color-ebony);
+}
+
+  &__right-wrapper {
+   width: 90%;
+   height: 90%;
+   background-image: 
+   url('../img/hero__right1.png'),
+   url('../img/hero__right2.png'),
+   url('../img/hero__right3.png'),
+   url('../img/hero__right4.png'),
+   url('../img/hero__right5.png'),
+   url('../img/hero__right6.png');
+   @include bg-cover;
+   background-size: contain;
+   animation: change-back1145 35s linear infinite;
+  }
+
+ 
+
+  @keyframes change-back1145 {
+   0% {
+     background-image: url('../img/hero__right1.png');
+     transform: rotate(0deg);
+   }
+ 
+   16% {
+      background-image: url('../img/hero__right2.png');
+      transform: rotate(60deg);
+   }
+ 
+   32% {
+     background-image: url('../img/hero__right3.png');
+     transform: rotate(120deg);
+   }
+ 
+   49% {
+      background-image: url('../img/hero__right4.png');
+      transform: rotate(180deg);
+   }
+ 
+   66% {
+     background-image: url('../img/hero__right5.png');
+     transform: rotate(240deg);
+   }
+ 
+   84% {
+     background-image: url('../img/hero__right6.png');
+     transform: rotate(300deg);
+   }
+
+   100% {
+      background-image: url('../img/hero__right1.png');
+      transform: rotate(360deg);
+    }
+ }
+}

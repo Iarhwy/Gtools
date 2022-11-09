@@ -1,0 +1,172 @@
+.footer {
+  padding-top: 40px;
+  background-color: var(--color-ebony);
+
+  &__container {
+    @include flex-v-center;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    color: var(--color-light);
+  }
+
+  &__descr {
+    color: var(--color-light);
+  }
+
+  &__form {
+   display: flex;
+   padding-bottom: 45px;
+  }
+
+  &__label {
+    margin-right: 15px;
+    width: 282px;
+    height: 42px;
+    background-color: var(--color-light);
+    border-radius: 4px;
+  }
+
+  &__input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 11px 16px;
+    border-radius: 4px;
+  }
+
+  &__input::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737b7d;
+  }
+
+  &__btn {
+    max-width: 145px;
+    height: 42px;
+    padding: 12px 31px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: var(--color-light);
+    background-color: var(--color-lochmara);
+    border-radius: 4px;
+  }
+
+  &__divide {
+   display: inline-block;
+    margin-bottom: 45px;
+    width: clamp(97vw - 2%, 100%, 97vw - 1%);
+    border: 1px solid #9094927d;
+  }
+
+  &__wrapper {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   gap: 28px;
+  }
+
+  &__social {
+   grid-column: 1 / 3;
+  }
+
+  &__resource {
+   grid-column: 4 / 5;
+  }
+
+  &__legal {
+   grid-column: 7 / 9;
+  }
+
+  &__office {
+   grid-column: 11 / 13;
+  }
+
+  &__social-list {
+  padding-left: 4px;
+  padding-right: 4px;
+   margin-top: 30px;
+   @include flex-v-center;
+   justify-content: space-evenly;
+  }
+
+  &__social-item {
+   width: 40px;
+   height: 40px;
+  }
+
+  &__social-item:not(:last-child) {
+   margin-right: 15px;
+  }
+
+  &__social-link {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   @include bg-cover;
+  }
+
+  &__social-link--fb {
+   background-image: url('../img/footer__social-link--fb.svg');
+  }
+
+  &__social-link--inst {
+   background-image: url('../img/footer__social-link--inst.svg');
+  }
+
+  &__social-link--tw {
+   background-image: url('../img/footer__social-link--tw.svg');
+  }
+
+  &__subtitle {
+   margin-bottom: 10px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: var(--color-light);
+  }
+
+  &__sublink,
+  &__address,
+  &__disclaimer {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 35px;
+   color: var(--color-light);
+  }
+
+  &__sublink:nth-child(4n) {
+   margin-bottom: 8px;
+  }
+
+  &__disclaimer {
+   text-align: center;
+   background-color: #1D292F;
+   padding: 15px 0px;
+  }
+}
+
+.just-validate-error-field {
+  outline: 2px solid red;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  top: -17px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}

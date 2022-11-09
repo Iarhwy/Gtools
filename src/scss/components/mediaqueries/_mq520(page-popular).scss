@@ -1,0 +1,21 @@
+@media (min-width: 520px) and (max-width: 767px) {
+  .hero2 {
+   &::before {
+      background-image: url('../img/hero2__back320.svg');
+   }
+  }
+  
+   .content {
+    &__item1,
+    &__item2,
+    &__item3,
+    &__item4,
+    &__item5,
+    &__item6,
+    &__item7,
+    &__item8,
+    &__item9 {
+      grid-column: 3/11;
+    }
+  }
+}
